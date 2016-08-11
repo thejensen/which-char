@@ -5,19 +5,68 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.0.js"></script>
-    <script src="js/scripts"></script>
+    <script src="js/scripts.js"></script>
     <title>Which house are you?</title>
   </head>
   <body>
     <div class="container">
       <h1>Which Game of Thrones house are you?</h1>
-      <div class="form">
-        <form id="user-input">
-
+        <div class="form">
+          <form id="user-input">
+            <div class="row">
+              <div class="col-md-4">
+                <label for="money">How much do you love money?</label>
+                <select class="form-control" id="money">
+                  <option value="1">Honor is the only currency</option>
+                  <option value="2">Not as much as my wine. *Belch*</option>
+                  <option value="3">Money is power, and I am all powerful.</option>
+                  <option value="4">Who needs money when you're diplomatic?</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="family">How do you feel about your family?</label>
+                <select class="form-control" id="family">
+                  <option value="1">We're close. A little too close.</option>
+                  <option value="2">Family and honor mean everything!</option>
+                  <option value="3">They're pretty much all dead already.</option>
+                  <option value="4">I hate them and wish they were dead!</option>
+                </select>
+              </div>
+              <div class="col-md-4">
+                <label for="relgion">What's your take on religion?</label>
+                <select class="form-control" id="religion">
+                  <option value="1">I am basically a god.</option>
+                  <option value="2">I'm more interested in the supernatural.</option>
+                  <option value="3">Burn it down.</option>
+                  <option value="4">If it serves me, then I'll play along.</option>
+                </select>
+              </div>
+            </div>
+          <button class="btn btn-success" type="submit">Find out!</submit>
         </form>
       </div>
-      <div class="result">
-
+      <div>
+        <div class="stark result">
+          Stark
+        </div>
+        <div class="baratheon result">
+          Baratheon
+        </div>
+        <div class="lanister result">
+          Lanister
+        </div>
+        <div class="targarian result">
+          Targarian
+        </div>
+        <div class="tully result">
+          Tully
+        </div>
+        <div class="tyrell result">
+          Tyrell
+        </div>
+        <div class="greyjoy result">
+          Greyjoy
+        </div>
       </div>
     </div>
   </body>
