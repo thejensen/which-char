@@ -87,6 +87,11 @@ $(document).ready(function() {
       greyjoy >= tyrell && greyjoy >= tully) {
         $(".result").hide();
         $(".greyjoy").show();
+    } else if (tyrell >= targarian && tyrell >= stark &&
+      tyrell >= lanister && tyrell >= baratheon &&
+      tyrell >= greyjoy && tyrell >= tully) {
+        $(".result").hide();
+        $(".tyrell").show();
     }
 
 

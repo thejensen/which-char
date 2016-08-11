@@ -3,48 +3,18 @@ body {
   -webkit-background-size: cover;
 }
 
+.btn {
+  margin-top: 10px;
+}
+
 .result {
   display: none;
   text-align: center;
   margin: 2em;
   font-size: 24px;
   padding: 10px;
-  background-color: rgba(0, 57, 77, 0.3);
-}
-
-.btn {
-  margin-top: 10px;
-}
-
-.stark {
-  font-family: Georgia, Times, serif;
-
-}
-
-.baratheon {
-  font-family: "Lucida Grande", sans-serif;
-  font-weight: lighter;
-
-}
-
-.lanister {
-
-}
-
-.targarian {
-
-}
-
-.tully {
-
-}
-
-.tyrell {
-
-}
-
-.greyjoy {
-  
+  background-color: rgba(143, 117, 61, 0.4);
+  border-radius: 20px;
 }
 
 p {
@@ -52,8 +22,9 @@ p {
 }
 
 img {
-  padding: 20px;
-  border-radius: 40px;
+  margin: 20px;
+  border-radius: 50px;
   width: 500px;
   height: auto;
+  border: solid gray;
 }
