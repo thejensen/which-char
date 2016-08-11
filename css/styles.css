@@ -1,5 +1,15 @@
+body {
+  background: url("../img/kingslanding.jpg") center center fixed no-repeat;
+  -webkit-background-size: cover;
+}
+
 .result {
   display: none;
+  text-align: center;
+  margin: 2em;
+  font-size: 24px;
+  padding: 10px;
+  background-color: rgba(0, 57, 77, 0.3);
 }
 
 .btn {
@@ -7,9 +17,43 @@
 }
 
 .stark {
-  text-align: center;
-  margin: 2em;
   font-family: Georgia, Times, serif;
-  font-size: 24px;
-  border: solid black;
+
+}
+
+.baratheon {
+  font-family: "Lucida Grande", sans-serif;
+  font-weight: lighter;
+
+}
+
+.lanister {
+
+}
+
+.targarian {
+
+}
+
+.tully {
+
+}
+
+.tyrell {
+
+}
+
+.greyjoy {
+  
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  padding: 20px;
+  border-radius: 40px;
+  width: 500px;
+  height: auto;
 }
